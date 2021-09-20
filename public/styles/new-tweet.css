@@ -1,23 +1,4 @@
 
-/* textarea{
-  width: 75%;
-  
-}
-label{
-  justify-content:left
-} 
-
-div{
-  justify-content: stretch;
-  text-align: justify;
-}
-form{
-  display: flex;
-  flex-direction: column;
-}
-.counter{
-  text-align: right;
-} */
 
 form{
   display:flex;
@@ -47,4 +28,14 @@ button{
 }
 .composetweet{
   margin-left: 12.5%;
+}
+div.error-message{
+  display:none;
+  color:red;
+  justify-content: center;
+
+}
+.error-message p{
+  display: flex;
+  flex-direction: row;
 }

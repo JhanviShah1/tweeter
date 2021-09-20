@@ -9,7 +9,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 /*
  * Global layout stuff
  */
@@ -20,20 +19,50 @@ body {
   font-size: 24px;
   font-family: Source Sans Pro;
   
-  
 }
 main{
   width: 90%;
   align-items: center;
-  background-color: blue;
+  /* background-color: blue; */
   font-size: 24px;
   font-family: Source Sans Pro;
   display: block;
   margin-left: 20px;
   margin-right: 20px;
 }
+article.tweet{
+  border:1px solid black; 
+}
 
+article.tweet:hover{
+  box-shadow: 8px 8px 1px 1px rgba(16, 16, 70, 0.2);
+}
 
-/*
- * Additional CSS can be defined below or in other CSS files, as per instructions
- */
+header.subheader{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 20px; 
+}
+
+div.content{
+  border:0;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+.footer{
+  font-size: 15px;
+  display:flex;
+  justify-content: space-between;
+}
+.imgtext{
+  display:flex;
+  align-items:center;
+  
+}
+ .fa:hover{
+  color:orange;
+  }
+ 
