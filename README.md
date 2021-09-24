@@ -23,3 +23,4 @@ This repository is the starter code for the project: Students will fork and clon
 !["Screenshot of tweeter desktop view"](https://github.com/JhanviShah1/tweeter/blob/main/docs/tweeter-desktop-view.png?raw=true)
 !["Screenshot of tweeter mobile view"](https://github.com/JhanviShah1/tweeter/blob/main/docs/tweeter-mobileview.png?raw=true)
 !["Screenshot of error message over 140 characters"](https://github.com/JhanviShah1/tweeter/blob/main/docs/Error-Over140%20chars.png?raw=true)
+["Screenshot of error message for empty tweets"]((https://github.com/JhanviShah1/tweeter/blob/main/docs/Error-EmptyTweets.png?raw=true)
