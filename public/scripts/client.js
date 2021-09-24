@@ -94,7 +94,6 @@ $(document).ready(() => {
       handleError("empty");
     }
     if (input.length > 140) {
-      // alert("the input cannot be more than 140 characters")
       handleError("maxChar");
     }
     const serializeData = $(this).serialize();

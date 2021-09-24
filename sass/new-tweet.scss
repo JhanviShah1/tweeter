@@ -1,45 +1,41 @@
-form {
-  display: flex;
-  flex-direction: column;
+
+
+form{
+  display:flex;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 }
-
-textarea {
+textarea{
   width: 75%;
   background-color: #f4f1ec;
-  border: 0;
+  border:0;
   border-bottom: 1px solid black;
 }
-
-div.thisbox {
-  display: flex;
+div.thisbox{
+  display:flex;
   justify-content: space-between;
   width: 75%;
 }
-
-button {
+button{
   font-family: Bungee;
   color: white;
   background-color: #4056A1;
-  margin: 10px;
+  margin: 10px
 }
-
-.counter {
+.counter{
   padding: 10px;
 }
-
-.composetweet {
+.composetweet{
   margin-left: 12.5%;
 }
-
-div.error-message {
-  display: none;
-  color: red;
+div.error-message{
+  display:none;
+  color:red;
   justify-content: center;
-}
 
-.error-message p {
+}
+.error-message p{
   display: flex;
   flex-direction: row;
 }

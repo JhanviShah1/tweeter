@@ -1,32 +1,39 @@
+$fonts:Bungee;
+$fontColor:#fff;
+
 nav {
   background-color: #4056A1;
-  width: 100%;
+  width:100%;
   display: flex;
   justify-content: space-between;
-  height: 120px;
+  height:120px;
   align-items: center;
   flex-direction: row;
   /* padding-top: 100px; */
-  position: fixed;
-  top: 0;
-}
-nav .textleft {
-  font-family: Bungee;
-  color: #fff;
+  position:fixed;
+  top:0; 
+
+.textleft{
+  font-family: $fonts;
+  color: $fontColor;
   margin-left: 1.5em;
 }
-nav .textright {
-  font-family: Bungee;
-  color: #fff;
+
+.textright{
+  font-family: $fonts ;
+  color: $fontColor;
   text-align: right;
 }
-nav .left {
-  display: flex;
+
+.left{
+  display:flex;
 }
-nav .right {
+
+.right{
   color: red;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
 }

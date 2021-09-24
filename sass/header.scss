@@ -1,16 +1,22 @@
-header.mainheader {
-  justify-content: center;
-  align-items: center;
+
+@mixin verticalAlign($align:center) {
+  justify-content: $align;
+  align-items: $align;
+}
+
+header.mainheader{
+  @include verticalAlign();
   height: 400px;
-  width: 100%;
-  display: flex;
+  width:100%;
+  display:flex;
   flex-direction: column;
   background-color: orange;
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
 }
 
-.imagebox img {
+.imagebox img{
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+

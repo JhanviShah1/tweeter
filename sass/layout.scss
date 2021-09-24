@@ -6,26 +6,24 @@
 html {
   box-sizing: border-box;
 }
-
 *, *:before, *:after {
   box-sizing: inherit;
 }
-
 /*
  * Global layout stuff
- */
+ */$backgroundColor: #f4f1ec;
+ 
 body {
   color: #545149;
-  background-color: #f4f1ec;
+  background-color: $backgroundColor;
   font-size: 24px;
   font-family: Source Sans Pro;
+  
 }
-
-.page {
+.page{
   margin-top: 120px;
 }
-
-main {
+main{
   width: 90%;
   align-items: center;
   font-size: 24px;
@@ -34,44 +32,44 @@ main {
   margin-left: 20px;
   margin-right: 20px;
 }
-
-article.tweet {
-  border: 1px solid black;
+article.tweet{
+  border:1px solid black; 
   margin-bottom: 30px;
 }
 
-article.tweet:hover {
+article.tweet:hover{
   box-shadow: 8px 8px 1px 1px rgba(16, 16, 70, 0.2);
 }
 
-header.subheader {
-  display: flex;
+header.subheader{
+  display:flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 20px; 
 }
 
-div.content {
-  border: 0;
+div.content{
+  border:0;
   border-bottom: 1px solid black;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 10px; 
 }
 
-.footer {
+.footer{
   font-size: 15px;
-  display: flex;
+  display:flex;
   justify-content: space-between;
 }
-
-.imgtext {
-  display: flex;
-  align-items: center;
+.imgtext{
+  display:flex;
+  align-items:center;
+  
 }
+ .fa:hover{
+  color:orange;
+  }
+ 
 
-.fa:hover {
-  color: orange;
-}
 
 /* Desktop Styles */
 @media only screen and (min-width: 961px) {
@@ -80,8 +78,13 @@ div.content {
     justify-content: space-around;
     align-items: flex-start;
   }
+  .mainheader{
+    margin:5%;
 
-  .mainheader {
-    margin: 5%;
   }
+
+  
+
+
+  
 }
