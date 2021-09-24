@@ -49,7 +49,7 @@ $(document).ready(() => {
         </div>
           <footer class="footer">
             <div class="timeStamp">
-            ${tweet.created_at}
+            ${timeago.format(tweet.created_at)}
             </div>
             <div>
               <i class="fa fa-flag"></i><i class="fa fa-retweet"></i> <i class="fa fa-heart"></i>
