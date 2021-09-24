@@ -17,3 +17,9 @@ This repository is the starter code for the project: Students will fork and clon
 - Node 5.10.x or above
 - chance
 - body-parser
+
+## Screenshots
+
+!["Screenshot of tweeter desktop view"](https://github.com/JhanviShah1/tweeter/blob/main/docs/tweeter-desktop-view.png?raw=true)
+!["Screenshot of tweeter mobile view"]()
+!["Screenshot of tweeter desktop view"]()
