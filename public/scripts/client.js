@@ -89,12 +89,15 @@ $(document).ready(() => {
   const $form = $("#createTweetForm");
   $form.on("submit", function (event) {
     event.preventDefault();
+    $(".error-message").hide();
     const input = $("#tweet-text").val();
     if (input.length <= 0) {
       handleError("empty");
+      return
     }
     if (input.length > 140) {
       handleError("maxChar");
+      return
     }
     const serializeData = $(this).serialize();
     $.ajax({
