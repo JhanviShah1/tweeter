@@ -29,4 +29,5 @@ nav .right {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-right: 1.5em;
 }

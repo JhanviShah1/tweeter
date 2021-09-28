@@ -37,7 +37,7 @@ main {
 
 article.tweet {
   border: 1px solid black;
-  margin-bottom: 30px;
+  padding: 30px;
 }
 
 article.tweet:hover {

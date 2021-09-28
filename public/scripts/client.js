@@ -104,9 +104,13 @@ $(document).ready(() => {
       method: "POST",
       url: "/tweets",
       data: serializeData,
-    }).done(function (msg) {
+    }).then(function(data){
       loadTweets();
-    });
+      $("#tweet-text").val('');
+      //$("#createTweetForm").empty();
+      $(".counter").val(140);
+
+    })
   });
   const loadTweets = function () {
     $.ajax({
